@@ -1,0 +1,69 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #323232;
+}
+
+header{
+    padding: 0.5rem;
+    background-color: slategray;
+}
+
+.headerTitle{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.headerTitle img{
+    width: 5rem;
+    height: 5rem;
+}
+
+input {
+    margin:10px;
+    height: 2rem;
+    width: 30rem;
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius: 3rem;
+    text-align:center;
+}
+
+button {
+    margin: 10px;
+    height: 2rem;
+    width: 5rem;
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius: 3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.pageButton{
+    display: flex;
+    align-items:flex-end;
+    justify-content: right;
+    align-content:flex-end;
+}
+
+.loadContent {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 45.9rem;
+}
